@@ -28,8 +28,6 @@ const AddUser = () => {
         const new_users = { ...user };
         new_users[field] = value;
         setUsers(new_users);
-        // const {name, value} = event.target;
-        // setUsers({...users, [name]: value});
     }
 
     return (
